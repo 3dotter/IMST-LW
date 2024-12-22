@@ -1,6 +1,7 @@
 # The Things Network: iC880a-based gateway
 
 Reference setup for [The Things Network](http://thethingsnetwork.org/) gateways based on the iC880a SPI concentrator with a Raspberry Pi host.
+This is a clone of: https://github.com/ttn-zh/ic880a-gateway/tree/spi, but with the right SPI port (=5 instead of 25) for the IMST ic880a-gateway concentrator connected to the old RPi which is found in the IMST LW-gateway.
 
 This installer targets the **SPI version** of the board, if you have the USB version, [check this branch](https://github.com/ttn-zh/ic880a-gateway/tree/master).
 
